@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import axios from 'axios';
 
 const PortfolioContext = createContext(null);
+const API = import.meta.env.VITE_BACKEND_URL || '';
 
 export const PortfolioProvider = ({ children }) => {
   const [data, setData] = useState(null);
@@ -9,7 +10,7 @@ export const PortfolioProvider = ({ children }) => {
 
   useEffect(() => {
     axios
-      .get('/api/portfolio')
+      .get(`${API}/api/portfolio`)
       .then((res) => setData(res.data))
       .catch((err) => {
         console.error('Failed to load portfolio data:', err);
