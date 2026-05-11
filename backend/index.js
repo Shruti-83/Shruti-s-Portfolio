@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(
   cors({
-    origin: [process.env.VITE_FRONTEND_URL, 'http://localhost:5173', 'http://localhost:5174'],
+    origin: [process.env.VITE_FRONTEND_URL, 'http://localhost:5173', 'shruti-s-portfolio-git-main-shrutis-projects-05b75c37.vercel.app','shruti-s-portfolio-6g5y07ta9-shrutis-projects-05b75c37.vercel.app'],
     credentials: true,
   })
 );
