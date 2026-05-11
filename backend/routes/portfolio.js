@@ -83,7 +83,7 @@ const portfolioData = {
         'Designed and developed a futuristic portfolio using React, Three.js, Framer Motion, and GSAP with advanced animations and smooth user interactions.',
       tech: ['React', 'Three.js', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
       github: 'https://github.com/Shruti-83/Shruti-s-Portfolio',
-      live: 'https://shruti-s-portfolio-shrutis-projects-05b75c37.vercel.app/',
+      live: 'https://shruti-s-portfolio-kohl.vercel.app/',
       image: '/projects/project3.jpg',
       featured: true,
       color: '#10b981',
